@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h1 id="tituloSpan">OBI</h1>
+      <div id="todos-premiados">
+      </div>
+    </div>
+  </div>
+  <div id="header">
+    <div id="content">
+      <div id="top">
+        <div id="logo">
+          <img src="./Seção 1/Logo GEMA.png" id="logo-gema">
+        </div>
+        <div id="links">
+          <a class="link" href="#quem-somos">
+            <p>Conhecer</p>
+          </a>
+          <a class="link" href="https://t.me/+JcikpdRnTIgxYjVh">
+            <p>Telegram</p>
+          </a>
+          <a class="link" href="https://linktr.ee/gema.icmc.usp">
+            <p>Conteúdos</p>
+          </a>
+        </div>
+      </div>
+      <div id="main-header">
+        <div id="left-content">
+          <div id="left-content-top">
+            <h1>O Grupo de Programação<br>
+              Competitiva da USP.</h1>
+            <p>Quer aprender os algoritmos mais avançados<br> e ganhar medalhas? Cola com a gente!</p>
+            <div class="button">
+              <a href="#quem-somos">
+              <button>Conhecer</button>
+              </a>
+            </div>
+          </div>
+          <div id="left-content-bottom">
+            <img class="botton-img" src="./Seção 1/USP.png" id="imagem-usp">
+            <img class="botton-img" id="imagem-icmc" src="./Seção 1/ICMC.png">
+          </div>
+        </div>
+        <div id="img-baloes">
+          <img src="./Seção 1/Balões.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="main-content">
+
+    <div id="quem-somos">
+      <div id="quem-somos-txtcontent" class="titulo">
+        <h1>Quem somos?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget hendrerit felis, eget commodo tortor.
+          Praesent eu arcu in lacus sagittis maximus. In hac habitasse platea dictumst. Maecenas varius purus at lacus
+          luctus ullamcorper. Duis consectetur sem eros, id finibus enim gravida eget. Ut dapibus, metus sed tempor
+          rutrum, urna nibh efficitur felis, ac ultrices nibh leo vel nisl. Suspendisse eget velit gravida, rutrum lorem
+          a, maximus elit. Nulla in elementum ligula.</p>
+      </div>
+      <div id="quem-somos-imgcontent">
+        <img src="./Seção 2/Fotos.png">
+      </div>
+    </div>
+
+    <div id="gema-midia">
+      <div id="gema-midia-txtcontent" class="titulo">
+        <h1>GEMA na Mídia</h1>
+        <p>Veja o que andam falando do GEMA!</p>
+      </div>
+      <div id="noticias">
+        <section class="noticia">
+          <img id="imgNoticia1" alt="Imagem da notícia 1">
+          <p id="tituloNoticia1">noticia1 noticia1 noticia1</p>
+        </section>
+        <section class="noticia">
+          <img id="imgNoticia2" alt="Imagem da notícia 2">
+          <p id="tituloNoticia2">noticia1 noticia1 noticia1</p>
+        </section>
+        <section class="noticia">
+          <img id="imgNoticia3" alt="Imagem da notícia 3">
+          <p id="tituloNoticia3">noticia1 noticia1 noticia1</p>
+        </section>
+      </div>
+    </div>
+
+    <div id="premiacoes">
+      <div class="titulo" id="premiacoes-txtcontent">
+        <h1>Premiações do GEMA!</h1>
+        <p>Veja o que já ganhamos por aí ;)</p>
+      </div>
+      <div id="campeonatos">
+        <section class="competicao">
+          <div class="competicao-logo">
+            <img id="imagemCompeticao1" src="./Seção 1/Logo GEMA.png">
+          </div>
+          <div class="competicao-icons">
+            <div class="medalha"><span class="icon">🥇</span>
+              <p id="ouroCompeticao1"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥈</span>
+              <p id="prataCompeticao1"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥉</span>
+              <p id="bronzeCompeticao1"></p>
+            </div>
+          </div>
+          <p id="nomeCompeticao1" class="nomecompeticao">Olimpíada Brasileira de Informática (OBI)</p>
+          <button onclick="showInfo('Olimpíada Brasileira de Informática')">Ver Mais</button>
+        </section>
+        <section class="competicao">
+          <div class="competicao-logo">
+            <img id="imagemCompeticao2" src="./Seção 1/Logo GEMA.png">
+          </div>
+          <div class="competicao-icons">
+            <div class="medalha"><span class="icon">🥇</span>
+              <p id="ouroCompeticao2"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥈</span>
+              <p id="prataCompeticao2"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥉</span>
+              <p id="bronzeCompeticao2"></p>
+            </div>
+          </div>
+          <p id="nomeCompeticao2" class="nomecompeticao">International Collegiate Programming Contest</p>
+          <button onclick="showInfo('International Collegiate Programming Contest')">Ver Mais</button>
+        </section>
+        <section class="competicao">
+          <div class="competicao-logo">
+            <img id="imagemCompeticao3" src="./Seção 1/Logo GEMA.png">
+          </div>
+          <div class="competicao-icons">
+            <div class="medalha"><span class="icon">🥇</span>
+              <p id="ouroCompeticao3"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥈</span>
+              <p id="prataCompeticao3"></p>
+            </div>
+            <div class="medalha"><span class="icon">🥉</span>
+              <p id="bronzeCompeticao3"></p>
+            </div>
+          </div>
+          <p id="nomeCompeticao3" class="nomecompeticao">Maratona Feminina de Programação</p>
+          <button onclick="showInfo('Maratona Feminina de Programação')">Ver Mais</button>
+        </section>
+      </div>
+    </div>
+
+    <div id="redes-sociais">
+      <div id="redes-sociais-txtcontent" class="titulo">
+        <h1>Embarque Conosco!</h1>
+        <p>Fique conectado com o Gema!</p>
+      </div>
+      <div id="links-redes">
+        <a href="https://www.youtube.com/@GEMAICMC" ><img class="img-link-redes" src="./Seção 1/youtube.png"></a>
+        <a href="https://www.instagram.com/gema.icmc/?igshid=YTQwZjQ0NmI0OA%3D%3D"><img class="img-link-redes" src="./Seção 1/logotipo-do-instagram.png"></a>
+        <a href="https://t.me/+JcikpdRnTIgxYjVh"><img class="img-link-redes" src="./Seção 1/logotipo-do-telegram.png"></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>Gema - ICMC USP 2024</span>
+    <span>Desenvolvido pelo <b>Codelab</b></span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

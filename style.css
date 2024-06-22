@@ -1,0 +1,507 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111133;
+}
+
+* {
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  /* Rounded corners */
+  position: relative;
+  /* Relative to put the close button */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.preimado {
+  display: flex;
+}
+
+.preimado p {
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+
+#header {
+  background-color: #191946;
+  width: 100%;
+  margin-top: 1vh;
+}
+
+#content {
+  background-image: url('./Seção\ 1/header-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#top {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#logo-gema {
+  width: 80%;
+}
+
+#links {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60%;
+}
+
+#links p {
+  color: #ECECEC;
+  margin: 1vh;
+}
+
+#main-header {
+  display: flex;
+  margin-left: 5%;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  grid-column: 1 / span 1;
+  /* Ocupa a primeira coluna */
+  font-size: 16px;
+}
+
+#main-header h1 {
+  color: white;
+}
+
+#main-header p {
+  color: #DBDBDB;
+}
+
+#left-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  background-color: #C39F00;
+  border: 0;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 18px;
+  width: 40%;
+}
+
+#left-content-top h1 {
+  font-size: 5vh;
+}
+
+#left-content-top p {
+  font-size: 3vh;
+}
+
+#imagem-usp {
+  width: 16%;
+}
+
+#image-icmc {
+  width: 15%;
+  margin-left: 1vh;
+}
+
+#left-content-top {
+  margin-top: 30%;
+}
+
+#img-baloes {
+  margin-left: 10%;
+}
+
+#img-baloes img {
+  width: 80%;
+}
+
+#quem-somos {
+  background-image: url("./Seção 2/gema-white-background.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 3%;
+}
+
+#quem-somos img {
+  width: 100%;
+}
+
+#quem-somos-imgcontent {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+#quem-somos-txtcontent {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.titulo {
+  margin: 0;
+}
+
+.titulot h1 {
+  font-size: 4vh;
+}
+
+
+.titulo p {
+  font-size: 2.5vh;
+}
+
+#gema-midia {
+  background-image: url("./Seção\ 1/header-background.jpg");
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+#gema-midia-txtcontent {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+#gema-midia-txtcontent h1 {
+  color: white;
+  margin: 0;
+}
+
+#gema-midia-txtcontent p {
+  color: #DBDBDB;
+  margin: 0;
+}
+
+#noticias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 1.3vh;
+}
+
+#gema-midia section {
+  background-color: white;
+  width: 25%;
+  border-radius: 1em;
+  height: 25%;
+}
+
+#gema-midia section img {
+  width: 100%;
+  border-radius: 1em;
+  height: 25em;
+}
+
+#premiacoes {
+  text-align: center;
+  background-image: url(./Seção\ 2/gema-white-background.jpg);
+  padding: 3%;
+}
+
+#premiacoes-txtcontent {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.competicao {
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.competicao img {
+  width: 80%;
+}
+
+#premiacoes-txtcontent h1 {
+  color: #0D0D0D;
+  margin: 0;
+}
+
+#premiacoes-txtcontent p {
+  color: #4C4C4C;
+  margin: 0;
+}
+
+.competicao-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.medelha {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#campeonatos {
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+}
+
+#redes-sociais {
+  background-image: url("./Seção\ 1/header-background.jpg");
+  text-align: center;
+  padding: 3%;
+}
+
+#redes-sociais-txtcontent {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+#redes-sociais-txtcontent h1 {
+  color: white;
+  margin: 0;
+}
+
+#redes-sociais-txtcontent p {
+  color: #C8C8C8;
+  margin: 0;
+}
+
+#rede-sociais-icons {
+  width: 3%;
+}
+
+
+.img-link-redes {
+  width: 6%;
+}
+
+.img-link-redes img:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+footer span {
+  font-size: 1.5vh;
+}
+
+footer span b {
+  color: #5ED8FF;
+}
+
+button:hover {
+  background: #ffdd3c;
+  color: #000;
+  box-shadow: 0 0 10px #C39F00, 0 0 40px #C39F00, 0 0 70px #C39F00;
+  transition: 500ms linear;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+a p:hover {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.competicao-logo {
+  height: 250px;
+}
+.nomecompeticao{
+  flex: 1;
+}
+
+.competicao button{
+  align-self: center;
+}
+
+#links-redes a{
+  align-items: center;
+  list-style: none;
+  margin: 1em;
+}
